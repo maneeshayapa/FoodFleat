@@ -1,25 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-# 🍕 FoodFleat — Online Food Ordering System
-
-Professional React food ordering website with red & white theme.
-
 # 🍕 FoodFleat — Online Food Ordering System
 
 FoodFleat is a modern online food ordering web application built using React + Vite with a clean and responsive UI.  
@@ -47,8 +25,8 @@ This project includes food browsing, cart management, checkout flow, order track
 ## Frontend
 - React.js
 - Vite
-- Context API
 - CSS3
+- Context API
 
 ## Backend
 - Node.js
@@ -79,8 +57,6 @@ FoodFleat/
 │
 ├── package.json
 └── vite.config.js
-```
-
 ## 🚀 Setup Instructions
 
 ### Step 1: Copy files to your project
@@ -152,16 +128,18 @@ Backend:
 - Node.js
 - Express.js
 
-# 👨‍💻 Developer
 
-Developed by Maneesha Yapa
-```
 
 ## 🔮 Next Steps (Future Features)
 
-- [ ] Connect to a backend (Node.js / Firebase)
-- [ ] Real user authentication (Supabase / Firebase Auth)
-- [ ] Google Maps integration for live tracking
-- [ ] Payment gateway (PayHere for Sri Lanka)
-- [ ] Admin dashboard for restaurant owners
-- [ ] Push notifications for order updates
+-  Connect MongoDB Database
+-  Real User Authentication
+-  Google Maps Live Tracking
+-  nline Payment Gateway
+-  Admin Dashboard
+-  Push Notifications
+
+ # 👨‍💻 Developer
+ 
+Developed by Maneesha Yapa
+```
