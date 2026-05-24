@@ -71,9 +71,11 @@ npm install
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:5173](http://localhost:5173)
-
+Open:
+```bash
+[http://localhost:5173]
+(http://localhost:5173)
+```
 ## ✅ Features
 
 | Feature | Status |
@@ -116,26 +118,13 @@ Edit `src/data/menuData.js`:
 ```js
 export const categories = ['All', 'Pizza', ..., 'YourNewCategory'];
 ```
-# 🛠️ Tech Stack
-
-Frontend:
-- React.js
-- Vite
-- CSS3
-- Context API
-
-Backend:
-- Node.js
-- Express.js
-
-
 
 ## 🔮 Next Steps (Future Features)
 
 -  Connect MongoDB Database
 -  Real User Authentication
 -  Google Maps Live Tracking
--  nline Payment Gateway
+-  Online Payment Gateway
 -  Admin Dashboard
 -  Push Notifications
 
