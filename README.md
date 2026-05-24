@@ -16,33 +16,69 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-# 🍕 FlavorRush — Online Food Ordering System
+# 🍕 FoodFleat — Online Food Ordering System
 
 Professional React food ordering website with red & white theme.
 
-## 📁 Project Structure
+# 🍕 FoodFleat — Online Food Ordering System
 
-```
-src/
-├── components/
-│   ├── Navbar.jsx          ← Sticky navigation bar
-│   └── FoodCard.jsx        ← Reusable food item card
-├── context/
-│   ├── CartContext.jsx     ← Global cart state management
-│   └── ToastContext.jsx    ← Toast notification system
-├── data/
-│   └── menuData.js         ← All menu items & categories
-├── pages/
-│   ├── HomePage.jsx        ← Landing page with hero & popular items
-│   ├── MenuPage.jsx        ← Full menu with search & filter
-│   ├── CartPage.jsx        ← Cart with promo codes
-│   ├── CheckoutPage.jsx    ← Delivery & payment form
-│   ├── TrackingPage.jsx    ← Live order tracking
-│   └── ProfilePage.jsx     ← User profile & order history
-├── styles/
-│   └── global.css          ← Global CSS variables & styles
-├── App.jsx                 ← Main app with routing
-└── main.jsx                ← React entry point
+FoodFleat is a modern online food ordering web application built using React + Vite with a clean and responsive UI.  
+This project includes food browsing, cart management, checkout flow, order tracking, and user profile features.
+
+---
+
+# 🚀 Features
+
+- 🏠 Modern Home Page
+- 🍔 Food Menu with Search & Filters
+- 🛒 Shopping Cart System
+- 🎫 Promo Code Discounts
+- 💳 Checkout & Payment UI
+- 📦 Live Order Tracking
+- 👤 User Profile & Order History
+- 🔔 Toast Notifications
+- 🌐 Multi-language Support
+- 📱 Fully Responsive Design
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Vite
+- Context API
+- CSS3
+
+## Backend
+- Node.js
+- Express.js
+
+---
+
+# 📁 Project Structure
+
+```bash
+FoodFleat/
+│
+├── backend/
+│   ├── routes/
+│   ├── server.js
+│   └── .env
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── vite.config.js
 ```
 
 ## 🚀 Setup Instructions
@@ -103,6 +139,22 @@ const valid = { FLAVOR10: 10, RUSH20: 20 };
 Edit `src/data/menuData.js`:
 ```js
 export const categories = ['All', 'Pizza', ..., 'YourNewCategory'];
+```
+# 🛠️ Tech Stack
+
+Frontend:
+- React.js
+- Vite
+- CSS3
+- Context API
+
+Backend:
+- Node.js
+- Express.js
+
+# 👨‍💻 Developer
+
+Developed by Maneesha Yapa
 ```
 
 ## 🔮 Next Steps (Future Features)
